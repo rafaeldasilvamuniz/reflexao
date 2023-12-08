@@ -24,11 +24,11 @@ public class Reflections {
             for (Field field : fields) {
                 String nome = field.getName();
                 System.out.println(nome);
-                 TipoChave tipo = field.getAnnotation(TipoChave.class);
+                 //TipoChave tipo = field.getAnnotation(TipoChave.class);
 
-                if(tipo != null){
-                    System.out.println(tipo.value());
-                }
+              //  if(tipo != null){
+                  //  System.out.println(tipo.value());
+               // }
             }
 
 
