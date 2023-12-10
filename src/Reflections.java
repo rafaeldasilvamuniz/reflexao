@@ -27,7 +27,7 @@ public class Reflections {
                 Tabela tab = field.getAnnotation(Tabela.class);
 
                 if(tab != null){
-                   System.out.println(tab.value());
+                   System.out.println(tab.nome());
                 }
             }
             
